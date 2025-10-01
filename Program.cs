@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// --init
 Card[] deck = new Card[20];
 
 
@@ -10,6 +10,8 @@ for (int i=0; i<deck.Length ; i++) {
   deck[i] = new Card {suit=suit, value=value};
 }
 
+
+// --main
 foreach (Card card in deck) {
   Console.WriteLine(card.value+" of "+card.suit);
 }
@@ -18,7 +20,7 @@ foreach (Card card in deck) {
 
 
 
-
+// --datatype
 
 enum Suit {
   Diamonds,
