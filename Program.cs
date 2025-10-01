@@ -28,7 +28,7 @@ for (int i=0 ; i<(int)Suit.Count ; i++) {
   Console.WriteLine((Suit)i+": "+largest);
 }
 
-
+//Show a list of array for deck 
 foreach (Card card in deck) {
   Console.WriteLine(card.value+" of "+card.suit);
 }
